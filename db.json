@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ronaksinh",
+      "age": 21
+    },
+    {
+      "name": "vivek",
+      "age": "20",
+      "id": 2
+    },
+    {
+      "name": "ankit",
+      "age": "23",
+      "id": 3
+    },
+    {
+      "name": "ricky",
+      "age": "19",
+      "id": 4
+    },
+    {
+      "name": "niraj",
+      "age": "23",
+      "id": 5
+    },
+    {
+      "name": "sahil",
+      "age": "22",
+      "id": 6
+    },
+    {
+      "name": "aryan",
+      "age": "20",
+      "id": 7
+    },
+    {
+      "name": "bhandu",
+      "age": "26",
+      "id": 8
+    },
+    {
+      "name": "kalu",
+      "age": "26",
+      "id": 9
+    }
+  ]
+}
