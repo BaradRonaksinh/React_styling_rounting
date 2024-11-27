@@ -78,10 +78,12 @@ const JsonServerApi = () => {
       {/* create a form */}
 
       <form action="#" method='post' onSubmit={saveData}>
-        <label htmlFor="iName">Name:</label>  //In a Label we can put id name in htmlFor section
-        <input type="text" name="name" id="iName" onChange={handleChange} value={data.name}/>
-        <label htmlFor="iAge">Age:</label>    //In a Label we can put id name in htmlFor section
-        <input type="number" name="age" id="iAge" onChange={handleChange} value={data.age}/>
+          {/* //In a Label we can put id name in htmlFor section */}
+        <label htmlFor="iName">Name:</label>
+        <input type="text" name="name" id="iName" onChange={handleChange} value={data.name}/><br />
+        {/* //In a Label we can put id name in htmlFor section */}
+        <label htmlFor="iAge">Age:</label>    
+        <input type="number" name="age" id="iAge" onChange={handleChange} value={data.age}/><br />
         <input type="submit" name="save" value="save" />
       </form>
 
