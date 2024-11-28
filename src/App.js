@@ -6,6 +6,7 @@ import FakeApiMuiCrud from './FakeApiCRUD/FakeApiMuiCrud';
 import FakeApi from './FakeAPI/FakeApi';
 import AxiosData from './Axios/AxiosData';
 import JsonServerApi from './JsonServer/JsonServerApi';
+import CrudMuiRoute from './Crud_Mui_Router/CrudMuiRoute';
 // imoort {Button} from '@material-ui/core'
 
 function App() {
@@ -18,11 +19,12 @@ function App() {
   }
   return (
     <>
-    <h2>Ronaksinh</h2>
+    {/* <h2>Ronaksinh</h2> */}
     {/* <FakeApiMuiCrud /> */}
     {/* <FakeApi /> */}
     {/* <AxiosData /> */}
-    <JsonServerApi />
+    {/* <JsonServerApi /> */}
+    <CrudMuiRoute />
 
     {/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */}
       {/* <h1>React Web Page</h1>
